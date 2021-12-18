@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --first-text-color: #212121;
     --second-text-color: #757575;
     --accent-color: #2196f3;
@@ -6,7 +6,7 @@
     --header-text-color2: #212121;
     --main-bg-user: #2196f3;
     --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 p,
 h1,
 h2,
@@ -33,7 +33,7 @@ body {
     text-decoration: none;
 }
 /*------------HEADER---------------*/
-.header {
+/* .header {
     padding-top: 24px;
     padding-bottom: 25px;
     background-color: var(--header-text-color1);
@@ -150,9 +150,9 @@ body {
     color: var(--first-text-color);
     text-decoration: none;
     list-style: none;
-}
+} */
 /* ---------------HERO--------------- */
-.hero {
+/* .hero {
     margin: 0 auto;
     max-width: 1600px;
     background-color: #2f303a;
@@ -198,7 +198,9 @@ body {
     display: inline-block;
     color: var(--header-text-color1);
     border: none;
-}
+} */
+/* --------------------characteristic---------------- */
+
 .characteristic-title {
     font-weight: 700;
     font-size: 14px;
@@ -845,7 +847,7 @@ body {
     margin-top: 30px;
     color: var(--header-text-color1);
     background-color: var(--main-bg-user);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 15%); */
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
