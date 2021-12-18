@@ -280,7 +280,7 @@ body {
     color: var(--header-text-color1);
 } */
 /*-------------------OUR TEAM------------*/
-.team-section {
+/* .team-section {
     padding: 94px 0;
     background: #f5f4fa;
 }
@@ -364,8 +364,9 @@ body {
     fill: #afb1b8;
     height: 20px;
     width: 20px;
-}
-.clients-section {
+} */
+/* ---------------clients--------------- */
+/* .clients-section {
     padding-left: 15px;
 }
 .clients-container {
@@ -411,8 +412,9 @@ body {
 .clients-item-link:hover {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
-}
-.footer-main-container {
+} */
+/* -------------------------footer---------------- */
+/* .footer-main-container {
     background: #2f303a;
 }
 .footer-container {
@@ -563,19 +565,15 @@ body {
     width: 200px;
     height: 50px;
     align-self: flex-end;
-
     margin-left: 12px;
-
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    /* identical to box height, or 187% */
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-}
+} */
 /*---------------PORTFOLIO-------------*/
 /* .visually-hidden {
     position: absolute;
