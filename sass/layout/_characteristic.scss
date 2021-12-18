@@ -1,0 +1,35 @@
+.characteristic-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-text-color2);
+}
+.characteristic-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    padding: 94px 15px 0px 15px;
+}
+.characteristic-list {
+    display: flex;
+}
+.characteristic-list-block-icon {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.characteristic-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+    margin-right: 30px;
+    padding-top: 10px;
+}

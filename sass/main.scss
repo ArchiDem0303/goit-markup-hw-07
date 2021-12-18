@@ -1,3 +1,8 @@
 @import './utils/vars';
+@import './base/common';
+@import './base/reset';
 @import './layout/header';
 @import './layout/hero';
+@import './layout/characteristic';
+@import './layout/about';
+@import './utils/hidden';

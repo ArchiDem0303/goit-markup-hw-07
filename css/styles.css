@@ -7,7 +7,7 @@
     --main-bg-user: #2196f3;
     --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -31,7 +31,7 @@ body {
 }
 .link {
     text-decoration: none;
-}
+} */
 /*------------HEADER---------------*/
 /* .header {
     padding-top: 24px;
@@ -201,7 +201,7 @@ body {
 } */
 /* --------------------characteristic---------------- */
 
-.characteristic-title {
+/* .characteristic-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -235,9 +235,9 @@ body {
     color: var(--second-text-color);
     margin-right: 30px;
     padding-top: 10px;
-}
+} */
 /* ----------------ABOUt US----------*/
-.business-container {
+/* .business-container {
     margin: auto;
     padding: auto;
     width: 1200px;
@@ -278,7 +278,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--header-text-color1);
-}
+} */
 /*-------------------OUR TEAM------------*/
 .team-section {
     padding: 94px 0;
@@ -577,7 +577,7 @@ body {
     letter-spacing: 0.06em;
 }
 /*---------------PORTFOLIO-------------*/
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -588,7 +588,7 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
+} */
 .portfolio-container {
     margin-top: 94px;
 }
