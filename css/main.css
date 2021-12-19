@@ -113,17 +113,16 @@ button {
   border-radius: 2px;
 }
 
+.header-link:hover, .header-link:focus {
+  color: var(--accent-color);
+}
+
 .header-item {
   margin-right: 50px;
 }
 
 .header-item:last-child {
   margin-right: 0px;
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
 }
 
 .header-mail {
@@ -135,8 +134,7 @@ button {
   transition: color 250ms linear;
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.header-mail:hover, .header-mail:focus {
   color: var(--accent-color);
 }
 
@@ -150,8 +148,7 @@ button {
   transition: color 250ms linear;
 }
 
-.header-tel:hover,
-.header-tel:focus {
+.header-tel:hover, .header-tel:focus {
   color: var(--accent-color);
 }
 
@@ -533,8 +530,7 @@ button {
   transition: color 250ms linear;
 }
 
-.footer-mail:hover,
-.footer-mail:focus {
+.footer-mail:hover, .footer-mail:focus {
   color: var(--accent-color);
 }
 
@@ -549,8 +545,7 @@ button {
   transition: color 250ms linear;
 }
 
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-tel:hover, .footer-tel:focus {
   color: var(--accent-color);
 }
 

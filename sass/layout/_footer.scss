@@ -57,10 +57,10 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms linear;
-}
-.footer-mail:hover,
-.footer-mail:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 .footer-tel {
     font-style: normal;
@@ -71,11 +71,12 @@
     color: rgba(255, 255, 255, 0.6);
     margin-top: 9px;
     transition: color 250ms linear;
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
-.footer-tel:hover,
-.footer-tel:focus {
-    color: var(--accent-color);
-}
+
 .footer-socials {
     margin-left: 70px;
     margin-top: 12px;
