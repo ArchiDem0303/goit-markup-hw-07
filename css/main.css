@@ -459,8 +459,7 @@ button {
   color: #afb1b8;
 }
 
-.clients-item-link:hover,
-.clients-item-link:hover {
+.clients-item-link:hover, .clients-item-link:hover {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -821,8 +820,7 @@ button {
   transition: var(--anim);
 }
 
-.modal-close:focus,
-.modal-close:hover {
+.modal-close:focus, .modal-close:hover {
   fill: var(--main-bg-user);
 }
 
@@ -855,7 +853,7 @@ button {
   transition: border-color 250ms linear;
 }
 
-.modal-input:focus + .input-icon {
+.modal-input:focus {
   fill: var(--accent-color);
 }
 
@@ -869,6 +867,10 @@ button {
   transform: translateY(-50%);
   left: 12px;
   transition: fill 250ms linear;
+}
+
+.input-icon:focus {
+  fill: var(--accent-color);
 }
 
 .modal-form-field {
@@ -962,8 +964,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-check:focus,
-.btn-check:hover {
+.btn-check:focus, .btn-check:hover {
   background-color: #188ce8;
 }
 

@@ -6,9 +6,9 @@
     top: 0;
     left: 0;
     transition: opacity 250ms, visibility 250ms;
-}
-.backdrop.is-hidden .modal {
-    transform: scale(0.5) rotate(50deg);
+    &.is-hidden .modal {
+        transform: scale(0.5) rotate(50deg);
+    }
 }
 .modal {
     width: 528px;
@@ -35,10 +35,10 @@
     align-items: center;
     justify-content: center;
     transition: var(--anim);
-}
-.modal-close:focus,
-.modal-close:hover {
-    fill: var(--main-bg-user);
+    &:focus,
+    &:hover {
+        fill: var(--main-bg-user);
+    }
 }
 .is-hidden {
     visibility: hidden;
@@ -65,12 +65,12 @@
     padding-right: 10px;
     background-color: transparent;
     transition: border-color 250ms linear;
-}
-.modal-input:focus + .input-icon {
-    fill: var(--accent-color);
-}
-.modal-input:focus {
-    border-color: var(--accent-color);
+    &:focus {
+        fill: var(--accent-color);
+    }
+    &:focus {
+        border-color: var(--accent-color);
+    }
 }
 .input-icon {
     position: absolute;
@@ -78,6 +78,9 @@
     transform: translateY(-50%);
     left: 12px;
     transition: fill 250ms linear;
+    &:focus {
+        fill: var(--accent-color);
+    }
 }
 .modal-form-field {
     font-size: 12px;
@@ -137,9 +140,11 @@
     display: flex;
     position: absolute;
 }
-.modal-check:checked + .check-text span {
-    background-color: var(--accent-color);
-    border: none;
+.modal-check {
+    &:checked + .check-text span {
+        background-color: var(--accent-color);
+        border: none;
+    }
 }
 .policy-contract {
     color: var(--accent-color);
@@ -156,10 +161,10 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-check:focus,
-.btn-check:hover {
-    background-color: #188ce8;
+    &:focus,
+    &:hover {
+        background-color: #188ce8;
+    }
 }
 .btn-check-text {
     font-weight: bold;
