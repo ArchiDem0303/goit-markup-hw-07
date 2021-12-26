@@ -390,14 +390,12 @@ button {
   transition: color 250ms linear, background-color 250ms linear;
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
+.team-social-link:hover, .team-social-link:focus {
   background-color: var(--accent-color);
   color: var(--header-text-color1);
 }
 
-.team-social-link:hover .team-social-icon,
-.team-social-link:focus .team-social-icon {
+.team-social-link:hover, .team-social-link:focus {
   fill: var(--header-text-color1);
 }
 
@@ -405,6 +403,10 @@ button {
   fill: #afb1b8;
   height: 20px;
   width: 20px;
+}
+
+.team-social-icon:hover, .team-social-icon:focus {
+  fill: var(--header-text-color1);
 }
 
 .clients-section {
@@ -685,8 +687,7 @@ button {
   transition: color 250ms linear, background-color 250ms linear;
 }
 
-.menu-button:hover,
-.menu-button:focus {
+.menu-button:hover, .menu-button:focus {
   color: var(--header-text-color1);
   background-color: #188ce8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -713,9 +714,12 @@ button {
   overflow: hidden;
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-item:hover, .portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-item:hover .overlay-text {
+  transform: translateY(-100%);
 }
 
 .img-portfolio {
@@ -736,10 +740,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
-}
-
-.portfolio-item:hover .overlay-text {
-  transform: translateY(-100%);
 }
 
 .overlay-text {
